@@ -1,0 +1,21 @@
+Prezado (a)s, boa noite.
+
+Segue informações importantes. 
+
+Com base na descrição da execução de fórmulas visuais em sequência e as opções de execução "Gatilhos".
+
+•	Prioridade: define a ordem em que as fórmulas serão executadas e o sistema respeita a ordem decrescente. Exemplo: em uma fórmula com 2 - Sempre erro, 1 - Teste exceção e 0 - Teste prime. 
+•	Tipo: esse campo define o tipo de vinculação no gatilho a que a fórmula será submetida. Temos 4 tipos: Desabilitado - desabilita a vinculação sem removê-la, na ordem de execução, essa fórmula será ignorada. Ativado com exceções - a vinculação fica ativa e exibe possíveis erros que venham a ocorrer durante a execução da Fórmula Visual. Mesmo que ocorra erro em alguma das fórmulas as outras serão executadas normalmente. Ativado Ignorando Exceções - os erros que possam vir a ocorrer na execução das fórmulas são ignorados e não são exibidos ao usuário. Não interfere na execução das demais fórmulas. Ativado Parando Execução em Caso de Exceções - quando ocorre erro em alguma Fórmula Visual, esse erro é exibido ao usuário e a fila de execução de fórmulas é interrompida.
+
+
+*****************************************XX*******************************************
+Prezado (a)s, boa tarde. 
+
+Para atendimento aos "Processos de Fórmula Visual", favor atentar às orientações dos DEVs, no que tange ao flag "Atualizar":
+
+Essa flag é para ver se deve atualizar a visão ou edição após execução do processo.   
+
+Vamos supor: a fórmula visual criada e irá atualizar uma visão de dados, se essa flag estiver habilitada, sua visão será atualizada após a execução do processo, senão não será atualizada. 
+
+
+*****************************************XX*******************************************
